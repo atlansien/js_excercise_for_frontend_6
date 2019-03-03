@@ -119,7 +119,7 @@
       .then(addTodo)
       .then(showTodos)
       .catch(error => {
-        alert(error);
+        alert(error.message);
       });
   };
 
